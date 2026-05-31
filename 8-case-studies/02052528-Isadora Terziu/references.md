@@ -18,4 +18,9 @@ References - Isadora Terziu
 
 5. **Stack Overflow Developer Survey**
    - Title: Developer Sentiment on AI Tools
-   - URL: https://survey.stackoverflow.co/
+   - URL: https://survey.stackoverflow.com
+     
+6. **Duolingo Case Study Report**
+
+   -Title: How Duolingo uses GPT-4 to power its advanced learning features
+   -URL: https://openai.com/index/duolingo/
