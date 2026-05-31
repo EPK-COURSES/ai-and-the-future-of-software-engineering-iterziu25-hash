@@ -41,12 +41,17 @@ The empirical data collected across the analyzed case studies yielded several cr
 
 ---
 
-## 5. Discussion
-The results demonstrate that the impact of generative AI extends far beyond simple text generation. The 55% speed increase reported by Microsoft indicates that software engineers are effectively offloading repetitive syntax writing and boilerplate construction. This enables a structural shift toward systemic design and deep architectural planning. 
+## 5. Discussion: Advantages and Limitations
 
-However, as highlighted by Google’s recent developer milestones, transitioning to an "agentic future" requires massive computational infrastructure and continuous context maintenance. AI models must understand entire code repositories rather than isolated snippets. 
+### Advantages
+* **Task Acceleration:** Microsoft's controlled trials demonstrated that developers utilizing GitHub Copilot completed standardized programming tasks **55% faster** than the manual control group.
+* **Onboarding Speed:** Shopify’s infrastructure logs revealed that junior engineers utilizing customized AI setups onboarded to complex codebases significantly faster, executing backend system changes with less initial errors.
+* **Reduction of Burnout:** Data from Stack Overflow underscores that developer satisfaction is closely tied to tool availability, showing that engineers feel less cognitive fatigue when offloading repetitive code to AI assistants.
 
-Furthermore, the data from Stack Overflow underscores a critical cultural shift: developer satisfaction is closely tied to tool availability. Engineers who utilize AI assistants report less cognitive burnout during mundane tasks. Nonetheless, organizations must remain cautious regarding data privacy boundaries, ensuring proprietary IP is not inadvertently leaked during model fine-tuning or external prompt inference.
+### Limitations
+* **Context Window Boundaries:** As highlighted by Google’s recent developer milestones, AI models often struggle with complex, multi-repository systems where the context spans millions of lines of legacy code.
+* **The Hallucination Risk:** Generative models can still produce incorrect or outdated code logic that looks correct on the surface, requiring strict human verification to avoid introducing security flaws.
+* **IP and Privacy Issues:** As McKinsey's reports mention, enterprise companies face limitations regarding code privacy, as uploading proprietary IP to public LLM API endpoints poses legal risks.
 
 ---
 
